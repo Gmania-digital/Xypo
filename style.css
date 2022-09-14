@@ -37,3 +37,80 @@ h1{
     background: #f67c92;
     margin: 15px 0px;
 }
+
+.common-btn{
+    Padding: 18px 40px;
+    outline: none;
+    Border: 2px solid #f67c92;
+    background: transparent;
+    font-weight:400;
+    cursor: pointer;
+}
+
+p{
+    line-height: 18px;
+    font-size: 15px;
+    color: #777;
+    
+}
+
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+}
+
+.line-1{
+    width: 15px;
+    height: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line-2{
+    width: 80px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line-3{
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line{ 
+    line-height: 8px;
+}
+
+#sideNav{
+    width: 250;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #f67c92;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+

@@ -14,12 +14,47 @@
             <div class="header-text">
                 <h1> Are you ready to take <br>your career to the next level </h1>
                 <span class="square"></span>
+
                 <p> Suspendisse pharetra nibh vitae nibh pellentesque gravida. Pellentesque quis purus vitae leo imperdiet ultricies sed at quam. Donec dignissim eros felis, ac viverra enim rhoncus non. </p>
+
+                <button class="common-btn">Read more</button>
+                <div class="line">
+                    <span class="line-1"></span> <br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
 
             </div>
         </div>
-
     </section>
+    
+    <Nav id="sideNav">
+        <ul>
+            <li><a href="Index.html">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">OFFER</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </Nav>
+    <img src="images/menu.png" id="menuBtn">
+    
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav")
+        
+        sideNav.style.right="-250px"
+        menuBtn.onclick = Function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    
+    </script>
 </body></html>
 
 

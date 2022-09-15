@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +28,7 @@
             </div>
         </div>
     </section>
-    
+
     <Nav id="sideNav">
         <ul>
             <li><a href="Index.html">HOME</a></li>
@@ -38,23 +39,53 @@
             <li><a href="#">CONTACT</a></li>
         </ul>
     </Nav>
+
     <img src="images/menu.png" id="menuBtn">
-    
+
+
+    <!------------------About Us------------------------>
+
+    <section id="about">
+        <div class="about-left-col ">
+            <img src="images/about.png">
+
+        </div>
+        <div class="about-right-col ">
+            <div class="about-text">
+                <h1> ABOUT US</h1>
+                <span class="square"></span>
+                <p>Integer viverra pulvinar nisi ac aliquam. Pellentesque vel lacus sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin sed magna vel tincidunt. Nullam egestas pellentesque ante, quis pretium erat vehicula at.viverra pulvinar nisi ac aliquam. Pellentesque vel lacus sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> <br><br>
+                
+                 <div class="line">
+                    <span class="line-1"></span> <br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div> 
+                
+                <h2> "Learning is not attained by chance, it must be sought for with ardor and attended to with deliligence"</h2>
+                <h3>---Abigali Adams</h3>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
     <script>
         var menuBtn = document.getElementById("menuBtn");
         var sideNav = document.getElementById("sideNav")
-        
-        sideNav.style.right="-250px"
-        menuBtn.onclick = Function(){
-            if(sideNav.style.right == "-250px"){
+
+        sideNav.style.right = "-250px"
+        menuBtn.onclick = function() {
+            if (sideNav.style.right == "-250px") {
                 sideNav.style.right = "0";
-            }
-            else{
+            } else {
                 sideNav.style.right = "-250px";
             }
         }
-    
+
     </script>
-</body></html>
+</body>
 
-
+</html>

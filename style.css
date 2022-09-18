@@ -246,7 +246,7 @@ nav ul li a {
     padding: 100px 0;
     display: flex;
     align-items: center;
-    flex-wrap:  wrap;
+    flex-wrap: wrap;
 
 }
 
@@ -282,33 +282,36 @@ nav ul li a {
     font-size: 20px;
     color: #797979;
 }
-#offer button{
+
+#offer button {
     margin: 30px 0;
 }
 
 /*------------------Contact------------------*/
 
-.contact-row{
+.contact-row {
     padding: 100px 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 
-.contact-right-col, .contact-left-col{
+.contact-right-col,
+.contact-left-col {
     flex-basis: 50%
 }
-.contact-right-col img{
+
+.contact-right-col img {
     width: 100%
 }
 
-form{
+form {
     max-width: 350px;
     margin: 30px 0;
 }
 
-form input{
+form input {
     padding: 12px 10px;
     width: 100%;
     margin-bottom: 5px;
@@ -319,129 +322,220 @@ form input{
 }
 
 
-.btn-box{
+.btn-box {
     width: 100%;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
-.btn-box button{
+.btn-box button {
     flex-basis: 48%;
     padding: 18px 0;
 }
 
 /*-------------Footer--------*/
 
-#footer{
+#footer {
     padding: 50px 0 30px;
 }
-hr{
+
+hr {
     width: 100%;
     border: 0;
     border-top: 1px solid #f67c92;
 }
 
-.footer-row{
+.footer-row {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.footer-left-col{
+.footer-left-col {
     flex-basis: 50%;
     margin-top: 60px;
-    
+
 }
 
-.footer-right-col{
+.footer-right-col {
     flex-basis: 35%;
-    
+
 }
 
 
-.footer-links{ 
-    display: flex; 
-    justify-content: space-between; 
+.footer-links {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    
+
 }
 
-.link-title h4{
+.link-title h4 {
     Color: #fab3c4;
     margin-bottom: 20px;
 }
 
-.link-title small{
+.link-title small {
     font-size: 13px;
     color: #777
 }
 
-.footer-info{
+.footer-info {
     Display: flex;
     align-items: flex-end;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.footer-logo img{
+.footer-logo img {
     width: 100px;
 }
 
-.footer-logo button{
+.footer-logo button {
     padding: 12px 38px;
     margin-top: 20px;
-    font-size: 10px; 
+    font-size: 10px;
 }
 
-.copyright-text .footer-logo{
+.copyright-text .footer-logo {
     flex-basis: 40%;
 }
 
 /*-------------Social icon ---------*/
 
-.Social-icons{
+.Social-icons {
     width: 50px;
     Position: fixed;
     top: 50%;
-    left: 0 ;
+    left: 0;
     transform: translateY(-50);
     z-index: 1;
 }
 
-.Social-icons img{
+.Social-icons img {
     display: block;
     margin: 0 auto 20px;
     width: 20px;
     cursor: pointer;
 }
 
+/*---------------Media Query------*/
 
 
+@media only screen and (max-width:770px) {
+
+    /*---------------header------*/
+    #header {
+
+        background-image: none;
+    }
+
+    .container {
+        Margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .logo {
+        margin-top: 27px;
+        width: 70px;
+    }
+
+    .header-text {
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 25 px;
+    }
+
+    #menuBtn {
+        width: 40px;
+        right: 50px;
+
+    }
+
+    .common-btn {
+        Padding: 10px 16px;
+    }
+
+    /*---------------social media------*/
+    .Social-icons img {
+        margin: 15px auto;
+        width: 14px;
+    }
+
+    /*---------------About ------*/
+
+    .about-left-col,
+    .about-right-col {
+        flex-basis: 100%;
+    }
+
+    .about-text {
+        margin: 50px 50px 0;
+        display: inline-block;
+
+    }
+
+    .about-text h2 {
+        font-size: 18px; 
+    }
+
+/*---------------feature------*/
+
+.feature-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+/*---------------Courses------*/
+    
+    .course-left-col {
+    flex-basis: 100%; 
+}
+
+.course-right-col {
+    flex-basis: 100%;
+    margin-top: 70px;
+}
 
 
+/*---------------offer------*/   
+    
+   .offer-left-col, .offer-right-col {
+    flex-basis: 100%;
+}
+
+    .offer-text {
+        margin: 50px 50px 0;
+        display: inline-block;
+
+    }
 
 
+  /*---------------contact------*/   
+    
+    .contact-right-col,
+.contact-left-col {
+    flex-basis: 100%
+}
 
+    .contact-right-col{
+        margin-top: 50px; 
+    }
+    
+    
+/*---------------footer------*/  
+    
+    .footer-left-col, .footer-right-col {
+    flex-basis: 100%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+    .link-title {
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+    
+ 
+}

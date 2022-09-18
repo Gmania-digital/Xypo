@@ -398,9 +398,23 @@ hr{
     flex-basis: 40%;
 }
 
+/*-------------Social icon ---------*/
 
+.Social-icons{
+    width: 50px;
+    Position: fixed;
+    top: 50%;
+    left: 0 ;
+    transform: translateY(-50);
+    z-index: 1;
+}
 
-
+.Social-icons img{
+    display: block;
+    margin: 0 auto 20px;
+    width: 20px;
+    cursor: pointer;
+}
 
 
 
